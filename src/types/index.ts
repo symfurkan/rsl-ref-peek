@@ -1,0 +1,1 @@
+export type { ReferencedDataComponent, ReferencedDataComponentProps } from './component'
