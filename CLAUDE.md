@@ -55,9 +55,6 @@ The main `ReferencedData` component should accept:
 - `npm run format` - Format code with Prettier
 - `npm run format:check` - Check code formatting
 
-### Storybook
-- `npm run storybook` - Start Storybook development server
-- `npm run build-storybook` - Build Storybook for production
 
 ## Implementation Status
 
@@ -78,4 +75,3 @@ The main `ReferencedData` component should accept:
 - **Styling**: TailwindCSS + shadcn/ui components
 - **Build**: Vite with library mode for NPM distribution
 - **Testing**: Vitest + Testing Library
-- **Documentation**: Storybook

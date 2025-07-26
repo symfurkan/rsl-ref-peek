@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { HelloWorld, ReferencedData } from './components'
+import { ReferencedData } from './components'
 import { UserPreview } from '../examples/basic/user-preview'
 import './styles.css'
 
@@ -8,11 +8,7 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <div className="min-h-screen bg-background p-8">
       <div className="max-w-2xl mx-auto space-y-8">
-        <div className="space-y-4">
-          <HelloWorld />
-          <HelloWorld name="RSL Ref Peek" className="bg-green-100 text-green-900" />
-        </div>
-        
+
         <div className="border-t pt-8">
           <h2 className="text-2xl font-bold mb-4">ReferencedData Test</h2>
           <div className="space-y-4">
